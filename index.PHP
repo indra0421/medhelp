@@ -77,7 +77,7 @@
         </div>
         <?php
     $connection = mysqli_connect("localhost", "root", "", "iemhcktn");
-    echo "CONNECTION ESTABLISHED! ready to go";
+    //echo "CONNECTION ESTABLISHED! ready to go";
     if (isset($_POST['sbtn'])) 
     {
         $pin = $_POST['searchbox'];
@@ -87,7 +87,7 @@
         <section class="nearby-med-store">
             <h2>Nearby Medical Stores</h2>
             
-            <div class="d-flex justify-content-around flex-wrap">`
+            <div class="d-flex justify-content-around flex-wrap" id="results">
                 <a href="#">
                 <?php
             if (mysqli_num_rows($query_run) > 0) {
@@ -122,7 +122,7 @@
         </section>    
         <section class="nearby-hospitals">
             <h2>Nearby Hospitals</h2>
-            <div class="d-flex justify-content-around flex-wrap">
+            <div class="d-flex justify-content-around flex-wrap" id="rslt">
                 <a href="/">
                     <div class="card" style="width: 18rem;">
                         <img class="card-img-top" src="/assets/hospital.jpg" alt="Card image cap">
