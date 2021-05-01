@@ -82,7 +82,7 @@
     
             </form>
         <?php
-        $connection = mysqli_connect("localhost", "root", "", "iemhcktn");
+        $connection = mysqli_connect("freedb.tech", "freedbtech_kallyan", "kallyansin01", "freedbtech_iemhcktn");
         //echo "CONNECTION ESTABLISHED! ready to go";
         if (isset($_POST['search-btn'])) 
         {
