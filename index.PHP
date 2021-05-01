@@ -11,6 +11,7 @@
     <title>Home</title>
 </head>
 <body>
+
     <header>
         <div class="login-bar" id="nav-desk">
             <div class="navbar-desktop">
@@ -31,7 +32,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav" id="">
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
