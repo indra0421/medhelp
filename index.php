@@ -37,13 +37,13 @@
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About us</a>
+                        <a class="nav-link" href="#">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact us</a>
+                        <a class="nav-link" href="#">Contact Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Need help</a>
+                        <a class="nav-link" href="#">Need Help</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link bg-warning" href="./admin/login.html">Admin Login</a>
